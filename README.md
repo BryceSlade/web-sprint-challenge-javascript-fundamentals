@@ -26,15 +26,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
-,
+.map() - Used for converting or amnipulating data in an array and generates a new array. Map can be used to take certain data in an array that has a similar trait.  For example, an original array with individual's brithdays, map can take all birthdays in a specific window of time into a newly generated array. It also needs a return statement. 
+
+.reduce() - Usually used to find find the sum or accumulation of a certain value. It returns a single value, not an array. It requires two arguments - accumulator and currentValue. The accumulator is the number before and after the currentValue has been added or multiplied. Reduce() also needs an initial value, usually 1 for multiplication and 0 for additon. It can be used, for example, a sum of all land area in an array of cities.
+
+.filter() - Used to filter data into a new array based on something that could be true or false. It needs a return statement and returns a new array like .map(). Filter helps narrow down data based on a specific request. For example, if you are trying to determine which cities in an array have a population over a certain amount, filter() can provide this information. 
 
 2. Explain the difference between a callback and a higher order function.
 
+A higher-order function takes another function as an argument and can return a function to its callers. A callback function is a function that is passed to another function, higher-order function to be used. 
+
 3. Explain what a closure is.
+
+A closure is whehn an inner function reaches out of its scope to obtain a variable in another outer function. 
 
 4. Describe the four principles of the 'this' keyword.
 
+Window Binding - When none of the other rules apply, this will return the window or the global object in node or undefined in strict mode.
+Implicit Binding - When the function is invoked look to the left of the dot, that's what this referrs to.
+Explicit Binding - Use .call, .apply, or .bind to explicitly
+New Binding - When a function is created as a constructor this points to the newly created object.
+
 5. Why do we need super() in an extended class?
+
+super() replaces Class.call() and essentially takes all attributes from the parent class and copies them in the new extended class - in one line. "extends" replaces Object.create and inherits the methods of the parent class. super() inherits the attributes. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 

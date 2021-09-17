@@ -6,7 +6,7 @@ This challenge allows you to practice the concepts and techniques learned over t
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
-You are not allowed to collaborate during the sprint challenge. 
+You are not allowed to collaborate during the sprint challenge.
 
 ## Introduction
 
@@ -25,6 +25,8 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+
+,
 
 2. Explain the difference between a callback and a higher order function.
 
